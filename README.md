@@ -20,7 +20,7 @@ flowchart TD
 ## Bibliotecas e Frameworks
 
 - `flask`: Microframework web. Utilizado para simular a API.
-- `threading`: Cria e controla threads (unidades de execução paralelas). Biblioteca utilizada para conseguir executar as requisições, da simulação da API, desenvolvida com a biblioteca flask. O código foi desenvolvido via Jupyter Notebook onde já se utiliza uma thread principal para executação do kernel. Portanto, ao executar as requisições, irá bloquear o processo atual impedindo que as outras células sejam executadas. Utilizando o threading, o servidor vai rodar em segundo plano, liberando o kernel do notebook para executar as células, evitando assim que o ambiente trave.
+- `threading`: Cria e controla threads (unidades de execução paralelas). Biblioteca utilizada para conseguir executar as requisições, da simulação da API, desenvolvida com o microframework flask. O código foi desenvolvido via Jupyter Notebook onde já se utiliza uma thread principal para executação do kernel. Portanto, ao executar as requisições, irá bloquear o processo atual impedindo que as outras células sejam executadas. Utilizando o threading, o servidor vai rodar em segundo plano, liberando o kernel do notebook para executar as células, evitando assim que o ambiente trave.
 - `pandas`: Biblioteca utilizada para trabalhar com os dados de forma tabular.
 - `random`: Biblioteca utilizada para gerar dados aleatórios para a criação da base de alertas.
 - `datetime`: Biblioteca utilizada para trabalhar com dados de data e hora.
