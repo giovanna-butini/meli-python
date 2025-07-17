@@ -38,15 +38,19 @@ git clone https://github.com/giovanna-butini/meli-python.git
 cd meli-python
 ```
 
-### 2. Execute em um notebook do Jupyter
+### 2. Execução do Código
 
-Pode-se executar o notebook de forma interativa com:
+Pode-se executar o notebook ou o código Python de forma interativa com:
 
 ```bash
 jupyter notebook extract_compliance_data.ipynb
 ```
 
-### 3. Especifique a rota em seu navegador ou Postman
+```bash
+python extract_compliance_data.py
+```
+
+### 3. Especifique a Rota em seu Navegador ou Postman
 
 **GET** `/api/alerts`
 
